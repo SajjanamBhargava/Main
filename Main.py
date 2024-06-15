@@ -27,7 +27,7 @@ from sklearn.preprocessing import LabelEncoder  # Importing LabelEncoder from sk
 
 # Creating the main Tkinter window
 main = tkinter.Tk()
-main.title("CSKG4APT: A Cybersecurity Knowledge Graph for Advanced Persistent Threat Organization Attribution")
+main.title("Machine Learning in CyberSecurity Knowledge Graph")
 main.geometry("1000x650")  # Setting window dimensions
 
 # Global variables for dataset, model, and evaluation metrics
@@ -203,7 +203,7 @@ def close():
 # Creating GUI elements and arranging them
 font = ('times', 16, 'bold')
 title = Label(main,
-              text='CSKG4APT: A Cybersecurity Knowledge Graph for Advanced Persistent Threat Organization Attribution',
+              text='Machine Learning in Knoledge Graph',
               justify=LEFT)
 title.config(bg='lavender blush', fg='DarkOrchid1')
 title.config(font=font)
